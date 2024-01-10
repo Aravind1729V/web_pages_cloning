@@ -1,0 +1,368 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+nav{
+    /* border: 2px solid ; */
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+nav>span>img{
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+nav>ol{
+   display: flex;
+   justify-content: space-between;
+   /* border: 2px solid; */
+   width: 600px;
+   height: 100px;
+   list-style: none; 
+   align-items: center;
+   margin-top: 20px;
+   margin-right: 50px;
+   text-transform: capitalize;
+}
+nav>ol>li:first-child{
+    color: lightgray;
+}
+nav>ol>li:first-child:hover{
+    color:black;
+    cursor: pointer;
+}
+nav>ol>li:hover{
+    color: lightgray;
+    cursor: pointer;
+}
+#section1{
+    /* border: 2px solid; */
+    height: 450px;
+    background-image: url("./assets/Ray+Romano+Loft+renovation+nyc+brooklyn+hamptons+luxury+construction.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+#section1>div{
+    height: 70px;
+    width: 740px;
+    /* border: 2px solid; */
+    letter-spacing: 0.179487em;
+    font-family: futura-pt;
+    font-size: 2.4em;
+    font-weight: 400;
+    position: absolute;
+    top: 40%;
+    left: 4%;
+    /* margin-top: 5.5%;
+    margin-left: 5.5%; */
+    text-transform: uppercase;
+    font-style: normal;
+    padding: 15px 20px;
+    background-color: rgba(255,255,255,.6);
+}
+#section1>div+p{
+    height: 90px;
+    width: 740px;
+    /* border: 2px solid; */
+    font-family: futura-pt;
+    font-size: 1.35em;
+    font-weight: 400;
+    position: absolute;
+    top: 55%;
+    left: 4%;
+    font-style: normal;
+    padding: 15px 20px;
+    background-color: rgba(255,255,255,.6);
+}
+#section2{
+    display: flex;
+    height: 400px;
+}
+#section2>div{
+    height: inherit;
+    margin: auto;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+#section2>div>h2{
+    font-family: proxima-nova;
+    font-size: 2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 2px;
+    text-decoration: none;
+    line-height: 1.2em;
+}
+#section2>div>p{
+    color: #363636;
+    /* background-color: #171717; */
+    font-family: "PT Serif",Georgia,serif;
+    /* font-family: proxima-nova; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 1.2em;
+}
+#section3{
+    /* border: 2px solid green; */
+    height: 450px;
+    background-image: url("./assets/pic2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+#section3>div{
+    height: 100px;
+    width: 800px;
+    letter-spacing: 0.179487em;
+    font-family: futura-pt;
+    font-size: 2.4em;
+    font-weight: 400;
+    position: absolute;
+    top: 180%;
+    left: 4%;
+    text-transform: uppercase;
+    font-style: normal;
+    padding: 15px 20px;
+    background-color: rgba(255,255,255,.6);
+}
+#section4{
+    display: flex;
+    height: 400px;
+}
+#section4>div{
+    height: inherit;
+    margin: auto;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+#section4>div>h2{
+    font-family: proxima-nova;
+    font-size: 2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 2px;
+    text-decoration: none;
+    line-height: 1.2em;
+}
+#section4>div>p{
+    color: #363636;
+    /* background-color: #171717; */
+    font-family: "PT Serif",Georgia,serif;
+    /* font-family: proxima-nova; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 1.2em;
+}
+#section5{
+    height: 450px;
+    background-image: url("./assets/pic3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+#section5>div{
+    height: 70px;
+    width: 300px;
+    letter-spacing: 0.179487em;
+    font-family: futura-pt;
+    font-size: 2.4em;
+    font-weight: 400;
+    position: absolute;
+    top: 340%;
+    left: 4%;
+    text-transform: uppercase;
+    font-style: normal;
+    padding: 15px 20px;
+    background-color: rgba(255,255,255,.6);
+}
+#section6{
+    display: flex;
+    height: 400px;
+}
+#section6>div{
+    height: inherit;
+    margin: auto;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+#section6>div>h2{
+    font-family: proxima-nova;
+    font-size: 2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 2px;
+    text-decoration: none;
+    line-height: 1.2em;
+}
+#section6>div>p{
+    color: #363636;
+    /* background-color: #171717; */
+    font-family: "PT Serif",Georgia,serif;
+    /* font-family: proxima-nova; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 1.2em;
+}
+#section7{
+    height: 450px;
+    background-image: url("./assets/pic4.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+#section7>div{
+    height: 70px;
+    width: 400px;
+    letter-spacing: 0.179487em;
+    font-family: futura-pt;
+    font-size: 2.4em;
+    font-weight: 400;
+    position: absolute;
+    top: 480%;
+    left: 4%;
+    text-transform: uppercase;
+    font-style: normal;
+    padding: 15px 20px;
+    background-color: rgba(255,255,255,.6);
+}
+#section8{
+    display: flex;
+    height: 400px;
+}
+#section8>div{
+    height: inherit;
+    margin: auto;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+#section8>div>h2{
+    font-family: proxima-nova;
+    font-size: 2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 2px;
+    text-decoration: none;
+    line-height: 1.2em;
+}
+#section8>div>p{
+    color: #363636;
+    /* background-color: #171717; */
+    font-family: "PT Serif",Georgia,serif;
+    /* font-family: proxima-nova; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 1.2em;
+}
+#section9{
+    height: 450px;
+    background-image: url("./assets/pic5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+#section9>div{
+    height: 70px;
+    width: 280px;
+    letter-spacing: 0.179487em;
+    font-family: futura-pt;
+    font-size: 2.4em;
+    font-weight: 400;
+    position: absolute;
+    top: 630%;
+    left: 4%;
+    text-transform: uppercase;
+    font-style: normal;
+    padding: 15px 20px;
+    background-color: rgba(255,255,255,.6);
+}
+/* #section10>table>tr>td>img{
+    height: 100px;
+    width: 100px;
+} */
+table{
+    /* border: 2px solid greenyellow; */
+    margin-left: 8%;
+    margin-top: 10%;
+}
+td{
+    padding: 20px;
+}
+td>img{
+    /* border: 2px solid red; */
+    height: 200px;
+    width: 320px;
+}
+td>p{
+    font-size: 12px;
+    color: #363636;
+    font-weight: 400;
+}
+#footer{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+#footer>div{
+    /* border: 2px solid red; */
+    height: 200px;
+    width: 100%;
+    margin: auto;
+    display: inline-flex;
+    background-color: #171717;
+    /* justify-content: center; */
+    justify-content: space-around;
+    align-items: center;
+}
+#footer>div>ul{
+    /* border: 2px solid blue; */
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+    list-style: none;
+}
+#footer>div>ul>li>ol{
+    display: inline-flex;
+    justify-content: space-between;
+    list-style: none;
+    /* border: 2px solid red; */
+    width: 160px;
+}
+#footer>div>ul>li>ol>li{
+    /* border: 2px solid yellow; */
+    color: #fff;
+    font-size: 20px;
+}
