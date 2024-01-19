@@ -1,0 +1,203 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+:root{
+    --text-color:rgb(255,255,255,.8);
+    --background-color:#454647;
+}
+#nav{
+    /* border: 2px solid rgb(224, 36, 36); */
+    height: 75px; 
+    background-color: #343535; 
+    
+}
+#sub-nav{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 3%;
+    left: 0%;
+    height: 50px;
+    width: 400px;
+}
+#sub-nav div img{
+    position:absolute;
+    top: 3%;
+    width: 140px;
+}
+#twitter{
+    /* border: 2px solid green; */
+    width: 40px;
+    margin-left: 40%;
+    fill: var(--text-color);
+}
+#message{
+    /* border: 2px solid green; */
+    width: 40px;
+    position: absolute;
+    top: 5%;
+    margin-left: 55%;
+    fill: var(--text-color);
+}
+#sub-nav1{
+    /* border: 2px solid blue; */
+    height: 45px;
+    width: 500px;
+    position: absolute;
+    top: 3%;
+    right: 20px;
+    display: flex;
+    color: var(--text-color);
+    padding: 1%;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size: 20px;
+}
+#sub-nav1>div:hover{
+    color: aquamarine;
+}
+#main{
+    /* border: 2px solid red; */
+    height: 582px;
+    width: 100%;
+    background-color: var(--background-color);
+    z-index: -1;
+}
+#sub-main{
+    /* border: 2px solid green; */
+    height: inherit;
+    width: 67%;
+    margin: auto;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+}
+#sub-main>h1{
+    font-size: 50px;
+    /* border: 2px solid greenyellow; */
+    color: var(--text-color);
+}
+#sub-main>h2{
+    /* border: 2px solid blue; */
+    font-family: "Ubuntu",sans-serif;
+    font-weight: 200;
+    font-size: 22px;
+    color: var(--text-color);
+}
+#sub-main>form{
+border-radius: 25px;
+height: 10%;
+padding: 5px;
+align-items: center;
+display: flex;
+justify-content: space-between;
+background-color: #ebebeb;
+
+}
+#sub-main>form>input{
+    height:40px;
+    width: 90%;
+    background-color: #ebebeb;
+    padding: 8px 52px 8px 16px ;
+    font-size: 25px;
+    border: 0;
+}
+#sub-main>form>svg{
+   /* border: 2px solid red; */
+   width: 30px;
+   height: 30px;
+}
+#banner{
+    /* border: 2px solid red; */
+    /* height: 80px; */
+    width: 100%;
+    position: absolute;
+    top:112%;
+    background: #d9643a;
+    margin: 0%;
+    padding: 0%;
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center; */
+}
+#banner>p:first-child{
+    margin-top: 1%;
+    /* border: 3px solid black; */
+    font-family: "Ubuntu",sans-serif;
+    font-weight: bold;
+}
+#banner>p:last-child{
+    /* border: 3px solid green; */
+    font-family: "Ubuntu",sans-serif;
+    font-weight: 200;
+}
+#banner>p>svg{
+    width: 1.5%;
+}
+footer{
+    /* border: 2px solid red ; */
+    height: 300px;
+    width: 100%;
+    background-color:#343535;
+    
+}
+#footer{
+    /* border: 2px solid white; */
+    height: inherit;
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 3%;
+    display: flex;
+    flex-direction: row;
+}
+#footer>aside{
+    width: 25%;
+}
+#footer>aside:first-child{
+    /* border:2px solid greenyellow; */
+    align-items: center;
+    /* justify-content: center; */
+}
+#footer>aside>img{
+    margin-top: 7%;
+    width: 80%;
+}
+#footer>aside>img+br+span{
+    /* border: 2px solid whitesmoke; */
+    color: var(--text-color);
+    display: inline-block;
+    font-size: 18px;
+}
+#footer>aside>img+br+span+svg{
+    width: 8%;
+    fill: var(--text-color);
+}
+#footer>aside>img+br+span+svg+svg{
+    width: 8%;
+    fill: var(--text-color);
+}
+/* #footer>aside+aside{
+    border: 2px solid blue;
+} */
+#footer>aside+aside>p{
+    margin-top: 7%;
+    color: var(--text-color);
+    font-size: px;
+    align-items: center;
+}
+#footer>aside+aside+aside{
+    /* border: 2px solid greenyellow; */
+    color: var(--text-color);
+}
+#footer>aside+aside+aside+aside{
+    /* border: 2px solid rgb(255, 47, 196); */
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
